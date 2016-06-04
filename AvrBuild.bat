@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\ELECTRONICS\ELECTRONICS\myAVR\meteo\labels.tmp" -fI -W+ie -C V2E -o "C:\ELECTRONICS\ELECTRONICS\myAVR\meteo\meteo.hex" -d "C:\ELECTRONICS\ELECTRONICS\myAVR\meteo\meteo.obj" -e "C:\ELECTRONICS\ELECTRONICS\myAVR\meteo\meteo.eep" -m "C:\ELECTRONICS\ELECTRONICS\myAVR\meteo\meteo.map" "C:\ELECTRONICS\ELECTRONICS\myAVR\meteo\meteo.asm"
